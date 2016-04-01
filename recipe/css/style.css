@@ -1,0 +1,150 @@
+
+body {
+    width: 90%;
+    margin: auto;
+    font-family: Garamond;
+}
+
+img {
+    width: 40%;
+    border-radius: 0 20px 0 20px;
+    margin: .5em;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.75);
+}
+
+#top {
+    position:absolute;
+    background-color: #B16A02;
+    color: white;
+    font-size: 2em;
+    top: 0;
+    left: 0;
+    height: 20%;
+    min-height: 125px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dotted black;
+}
+
+.dettach {
+    width: 30%;
+    margin: 3em;
+    font-size: .5em;
+    font-family: Arial;
+    vertical-align: middle;
+    border-radius: 0 20px 0 20px;
+    padding: 1em;
+    border: 1px solid;
+}
+
+.dettach-caramel {
+    border-color: #B16A02;
+    transition: background-color 1s, color 1s;
+    float: right;
+}
+
+
+.dettach-caramel img {
+    float: left;
+    margin-right: 1.5em;
+}
+
+
+.dettach-caramel:hover {
+    background-color: #B16A02;
+    color: white;
+}
+
+#sidebar {
+    margin-top: 10%;
+    width: 25%;
+    float: left;
+    padding: .75em;
+}
+
+#main {
+    margin-top: 10%;
+    width: 70%;
+    border-left: 1px dotted black;
+    float: right;
+    padding: .75em;
+}
+
+.ingredient-list {
+    list-style: none; 
+    list-style-position: outside;
+}
+
+#definition {
+    position: absolute;
+    border: 1px solid #B16A02;
+    width: 15%;
+    padding: 1em;
+    border-radius: 0 20px 0 20px;
+    font-size: .4em;
+    background-color: white;
+/*    visibility: hidden;*/
+    display: none;
+    font-family: Arial;
+    vertical-align: middle;
+}
+
+#definition img {
+    float: right;
+    vertical-align: middle;
+}
+
+.subtitle, .item {
+    font-family: Arial;
+}
+
+#title {
+    font-family: fantasy, sans-serif;
+}
+
+.photos:hover {
+    opacity: 0.6;
+}
+
+.photos {
+    transition: opacity 1s; 
+}
+
+.worddef, .link {
+    color: #888888;
+    text-decoration: none;
+}
+
+.worddef:hover, .link:hover {
+    text-decoration: underline;
+}
+
+.crossed {
+    text-decoration: line-through;
+    color: #AAAAAA;
+}
+
+.direction-done:before{
+    content: "\f00c ";
+    font-family: fontAwesome;
+    color: greenyellow;
+}
+
+#btn-hide-imgs {
+    text-align: center;
+    border: 1px solid black;    
+    width: 50%;
+    margin: 5em auto;
+    padding: .5em;
+    font-family: Arial;
+    
+}
+
+#btn-hide-imgs:hover {
+    background-color: #B16A02;
+    color: white;
+}
+
+#without-image {
+    display: none;
+}
